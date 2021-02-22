@@ -6,7 +6,7 @@
     "permissions": ["activeTab"],
     "content_scripts": [
         {
-            "matches": ["https://archiveofourown.org/"],
+            "matches": ["<all_urls>"],
             "allFrames": true,
             "js": ["/js/jquery.js", "/js/content.js"],
             "css": ["/css/style.css"]

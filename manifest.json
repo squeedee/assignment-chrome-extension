@@ -13,6 +13,7 @@
        }
      ],
     "action": {
+        //Icon came from https://www.iconfinder.com/icons/4763231/broad_highlighter_marker_pen_stationery_icon
         "default_icon": {
             "64":"/images/iconfinder_Broad_marker_highlighter.png",
             "48":"/images/iconfinder_Broad_marker_highlighter_highlighter_48.png",

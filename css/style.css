@@ -9,3 +9,5 @@ p::selection{
 	color: white;
 	background: #F72585;
 }
+
+/*I learned about p::selection from https://tutorialdeep.com/knowhow/text-selection-color-css/*/

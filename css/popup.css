@@ -1,0 +1,31 @@
+body {
+	width: 230px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+}
+.button {
+	background-color: lightblue;
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+}
+
+.button2 {
+	background-color: pink;
+	color: black;
+}
+
+.button3 {
+	background-color: green;
+}
+
+.button4 {
+	background-color: yellow;
+	color: black;
+}

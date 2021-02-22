@@ -1,0 +1,12 @@
+/* CSS HERE */
+
+
+p::-moz-selection{
+	color: orange;
+	background: blue;
+}
+
+p::selection{
+	color: orange;
+	background: blue;
+}

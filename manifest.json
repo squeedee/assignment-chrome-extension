@@ -1,7 +1,7 @@
 {
     "manifest_version": 2, 
-    "name": "Handy Highlight",
-    "description": "Highlighter for the web.",
+    "name": "Handy Highlight & Text Editor",
+    "description": "Highlight and edit web pages.",
     "version": "1.0",
     "permissions": ["activeTab"],
     "content_scripts": [
@@ -14,7 +14,9 @@
      ],
     "action": {
         "default_icon": {
-            "32":"/images/icon.png"
+            "64":"/images/iconfinder_Broad_marker_highlighter.png",
+            "48":"/images/iconfinder_Broad_marker_highlighter_highlighter_48.png",
+            "128":"/images/iconfinder_Broad_marker_highlighter_highlighter_128.png"
         },
         "default_popup": "popup.html"
     },

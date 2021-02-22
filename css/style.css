@@ -1,12 +1,11 @@
-/* CSS HERE */
-
+/* This changes the way selecting text looks */
 
 p::-moz-selection{
-	color: orange;
-	background: blue;
+	color: white;
+	background: #F72585;
 }
 
 p::selection{
-	color: orange;
-	background: blue;
+	color: white;
+	background: #F72585;
 }

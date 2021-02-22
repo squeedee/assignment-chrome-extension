@@ -1,21 +1,31 @@
 console.log("extension is running!")
 
 
-// chrome.runtime.onMessage.addListener(
-// 	function(request, sender, sendResponse) {
-// 		var color = request.message;
-// 		$("p").css("color", color)
-		
-// 	}
-// );
+chrome.runtime.onMessage.addListener(
+	function(request, sender, sendResponse) {
+		var color = request.message;
+
 document.designMode = "on"; 
 
 
+$("p").attr("class", "textToSelect");
 
-$("p").attr("id", "textToSelect");
+console.log("paragraph class has changed")
 
-console.log("paragraph id has changed")
-document.getElementById("textToSelect").addEventListener('mouseup', function(e){
-	document.execCommand('hiliteColor', false, 'yellow')
-}); 
+$(".textToSelect").on('mouseup', function(e){
+	document.execCommand('hiliteColor', false, color)
+		}); 	
+ 	}
+ );
+
+// document.designMode = "on"; 
+
+
+// $("p").attr("class", "textToSelect");
+
+// console.log("paragraph id has changed")
+
+// $(".textToSelect").on('mouseup', function(e){
+// 	document.execCommand('hiliteColor', false, 'yellow')
+// }); 
 
